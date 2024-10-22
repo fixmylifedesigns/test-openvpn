@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "username": "user1",
+      "password": "password1",
+      "server": "212.102.47.80",
+      "port": 1194,
+      "config": "us8263.nordvpn.com",
+      "cipher": "AES-256-CBC",
+      "auth": "SHA512",
+      "ca": "-----BEGIN CERTIFICATE-----\nMIIFCj...==\n-----END CERTIFICATE-----",
+      "tls-auth": "-----BEGIN OpenVPN Static key V1-----\ne685bd...==\n-----END OpenVPN Static key V1-----"
+    },
+    {
+      "username": "user2",
+      "password": "password2",
+      "server": "212.102.48.81",
+      "port": 1194,
+      "config": "us8264.nordvpn.com",
+      "cipher": "AES-256-CBC",
+      "auth": "SHA512",
+      "ca": "-----BEGIN CERTIFICATE-----\nMIIFD...==\n-----END CERTIFICATE-----",
+      "tls-auth": "-----BEGIN OpenVPN Static key V1-----\nf51e93...==\n-----END OpenVPN Static key V1-----"
+    }
+  ]
+}
